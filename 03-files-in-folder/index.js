@@ -25,6 +25,5 @@ function displayFileInformation(folderPath) {
     .catch((error) => console.error(`Error reading files: ${error.message}`));
 }
 
-// Викликати функцію з вказаним шляхом до каталогу
 const folderPath = '03-files-in-folder/secret-folder';
 displayFileInformation(folderPath);
